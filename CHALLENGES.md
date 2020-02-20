@@ -87,4 +87,4 @@
     - If `True`, save the data, and redirect back to the `DetailsView`.
     - If `False`, display all the errors in the template, above the form fields.
 - [ ] Instead of hard-coding the path to redirect to, use the `reverse` function to return the path.
-- [ ] After successfully editing a `Page`, use Django Messages to "flash" the user a success message: "REPLACE_WITH_PAGE_TITLE has been successfully updated."
+- [ ] After successfully editing a `Page`, use Django Messages to "flash" the user a success message: "REPLACE_WITH_PAGE_TITLE has been successfully updated.HI. HI. HI."
