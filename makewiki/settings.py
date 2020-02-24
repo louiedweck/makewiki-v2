@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+DEFAULT_LOGOUT_URL = '/'
+
 
 # Application definition
 
@@ -38,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'wiki'
+    'wiki',
+    'account'
 ]
 
 MIDDLEWARE = [

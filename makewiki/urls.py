@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from wiki.views import PageDetailView, PageListView
+from account.views import SignUpView
 
 """
 CHALLENGES:
@@ -28,4 +30,8 @@ urlpatterns = [
 
     # Wiki App
     path('', include('wiki.urls')),
+
+    # User Authentication
+    path('accounts/', include('django.contrib.auth.urls')),
+
 ]
